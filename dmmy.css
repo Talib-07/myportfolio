@@ -1,0 +1,143 @@
+/* GLOBAL LAYOUT FIX */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    font-size: 25px;
+    background-color: #fff1f1 !important;
+    color: #e5e3e3;
+    flex: 1;
+}
+
+/* FULL-SCREEN BACKGROUND FIX (PAGE 1, PAGE 2, PAGE 3) */
+
+.page2 h1 {
+    color: rgb(43, 42, 42);
+    text-align: center;
+    font-size: 26;
+}
+.main,
+.page2,
+.page3 {
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+}
+
+/* PAGE 1 */
+.main {
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+/* PAGE 2 */
+.page2 {
+    background-image: url("https://images.pexels.com/photos/34733315/pexels-photo-34733315.jpeg");
+}
+
+/* PAGE 3 */
+.page3 {
+    background-image: url("https://images.pexels.com/photos/6960358/pexels-photo-6960358.jpeg");
+}
+
+/* FOOTER */
+.main-footer {
+    background: #070707;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* BUTTONS */
+.middle-buttons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-btn, .right-btn {
+    padding: 12px 25px;
+    font-size: 28px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* PAGE2 GRID */
+.options {
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.options2{
+    color:white;
+}
+
+.options li a {
+    display: block;
+    padding: 12px;
+    background: rgba(151, 145, 145, 0.338);
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+/* ABOUT PAGE TEXT */
+.page3 h2 {
+    font-size: 58px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.page3 h3, .page3 p {
+    color: rgb(0, 0, 0);
+}
+
+.page4 {
+    background-color: rgba(34, 37, 33, 0.74) !important;
+    color: black;
+}
+
+.page4 h4 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(255, 249, 249);
+}
+
+.page4 p4,
+.page4 p5,
+.page4 p6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 28px;
+}
+
+.page4 h5,
+.page4 h6 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
