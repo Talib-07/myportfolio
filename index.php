@@ -44,10 +44,10 @@
     html{scroll-behavior:smooth}
     main > div, main > section { transform:translateZ(0) }
 
-    h1{font-size:45px;font-weight:800;color:#fff;text-transform:uppercase;text-shadow:0 0 10px #000;margin-bottom:24px;text-align:center}
-    h2{font-size:38px;font-weight:700;color:#fff;text-shadow:0 0 8px #000;margin-bottom:18px;text-align:center}
-    h3{font-size:30px;font-weight:600;color:#fff;text-shadow:0 0 8px #000;margin-bottom:14px;text-align:center}
-    h4,h5,h6{font-size:26px;font-weight:600;color:#fff;text-shadow:0 0 8px #000;margin-bottom:12px}
+    h1{font-size:45px;font-weight:800;color:#fff;text-transform:uppercase;margin-bottom:24px;text-align:center}
+    h2{font-size:38px;font-weight:700;color:#fff;margin-bottom:18px;text-align:center}
+    h3{font-size:30px;font-weight:600;color:#fff;margin-bottom:14px;text-align:center}
+    h4,h5,h6{font-size:26px;font-weight:600;color:#fff;margin-bottom:12px}
 
     p{color:#f1f1f1;line-height:1.7;margin-bottom:18px}
 
